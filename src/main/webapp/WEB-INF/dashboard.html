@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking.com - User Dashboard</title>
+    <link rel="stylesheet" href="../main-file/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container1">
+        <h1>booking.com</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="index.html">Create Account</a>
+          <a href="#">About</a>
+          <a href="#">need Help?</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="booking-section">
+      <center>
+        <div>
+          <h2>Available Trips</h2>
+        </div>
+        <div class="container">
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>Paris Vacation</h3>
+            <p>Duration: 5 Days</p>
+            <p>Price: $1000</p>
+            <button onclick="selectTrip('Paris Vacation', 1000)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>New York City Tour</h3>
+            <p>Duration: 4 Days</p>
+            <p>Price: $800</p>
+            <button onclick="selectTrip('New York City Tour', 800)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>Paris Vacation</h3>
+            <p>Duration: 5 Days</p>
+            <p>Price: $1000</p>
+            <button onclick="selectTrip('Paris Vacation', 1000)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>New York City Tour</h3>
+            <p>Duration: 4 Days</p>
+            <p>Price: $800</p>
+            <button onclick="selectTrip('New York City Tour', 800)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>Paris Vacation</h3>
+            <p>Duration: 5 Days</p>
+            <p>Price: $1000</p>
+            <button onclick="selectTrip('Paris Vacation', 1000)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>New York City Tour</h3>
+            <p>Duration: 4 Days</p>
+            <p>Price: $800</p>
+            <button onclick="selectTrip('New York City Tour', 800)">
+              Book Now
+            </button>
+          </div>
+        </div>
+        <div class="container">
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>Paris Vacation</h3>
+            <p>Duration: 5 Days</p>
+            <p>Price: $1000</p>
+            <button onclick="selectTrip('Paris Vacation', 1000)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>New York City Tour</h3>
+            <p>Duration: 4 Days</p>
+            <p>Price: $800</p>
+            <button onclick="selectTrip('New York City Tour', 800)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>Paris Vacation</h3>
+            <p>Duration: 5 Days</p>
+            <p>Price: $1000</p>
+            <button onclick="selectTrip('Paris Vacation', 1000)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>New York City Tour</h3>
+            <p>Duration: 4 Days</p>
+            <p>Price: $800</p>
+            <button onclick="selectTrip('New York City Tour', 800)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>Paris Vacation</h3>
+            <p>Duration: 5 Days</p>
+            <p>Price: $1000</p>
+            <button onclick="selectTrip('Paris Vacation', 1000)">
+              Book Now
+            </button>
+          </div>
+
+          <div class="trip-card">
+            <img src="https://via.placeholder.com/100" alt="Trip Image" />
+            <h3>New York City Tour</h3>
+            <p>Duration: 4 Days</p>
+            <p>Price: $800</p>
+            <button onclick="selectTrip('New York City Tour', 800)">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </center>
+    </section>
+
+    <section class="transport-selection">
+      <div class="container">
+        <h2 class="Suggestion">Select Your Transport Mode</h2>
+        <select id="transportSelect">
+          <option value="Plane">Plane</option>
+          <option value="Train">Train</option>
+          <option value="Bus">Bus</option>
+          <option value="Car">Car</option>
+        </select>
+        <button onclick="proceedToReview()">Proceed to Review</button>
+      </div>
+    </section>
+    <section>
+      <div>
+        <br />
+        <br />
+        <h2>Plane</h2>
+      </div>
+      <div class="container">
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>Paris Vacation</h3>
+          <p>Duration: 5 Days</p>
+          <p>Price: $1000</p>
+          <button onclick="selectTrip('Paris Vacation', 1000)">Book Now</button>
+        </div>
+
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>New York City Tour</h3>
+          <p>Duration: 4 Days</p>
+          <p>Price: $800</p>
+          <button onclick="selectTrip('New York City Tour', 800)">
+            Book Now
+          </button>
+        </div>
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>New York City Tour</h3>
+          <p>Duration: 4 Days</p>
+          <p>Price: $800</p>
+          <button onclick="selectTrip('New York City Tour', 800)">
+            Book Now
+          </button>
+        </div>
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>New York City Tour</h3>
+          <p>Duration: 4 Days</p>
+          <p>Price: $800</p>
+          <button onclick="selectTrip('New York City Tour', 800)">
+            Book Now
+          </button>
+        </div>
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>New York City Tour</h3>
+          <p>Duration: 4 Days</p>
+          <p>Price: $800</p>
+          <button onclick="selectTrip('New York City Tour', 800)">
+            Book Now
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <br />
+        <br />
+        <h2>Train</h2>
+      </div>
+      <div class="container">
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>Paris Vacation</h3>
+          <p>Duration: 5 Days</p>
+          <p>Price: $1000</p>
+          <button onclick="selectTrip('Paris Vacation', 1000)">Book Now</button>
+        </div>
+
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>New York City Tour</h3>
+          <p>Duration: 4 Days</p>
+          <p>Price: $800</p>
+          <button onclick="selectTrip('New York City Tour', 800)">
+            Book Now
+          </button>
+        </div>
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>New York City Tour</h3>
+          <p>Duration: 4 Days</p>
+          <p>Price: $800</p>
+          <button onclick="selectTrip('New York City Tour', 800)">
+            Book Now
+          </button>
+        </div>
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>New York City Tour</h3>
+          <p>Duration: 4 Days</p>
+          <p>Price: $800</p>
+          <button onclick="selectTrip('New York City Tour', 800)">
+            Book Now
+          </button>
+        </div>
+        <div class="trip-card">
+          <img src="https://via.placeholder.com/100" alt="Trip Image" />
+          <h3>New York City Tour</h3>
+          <p>Duration: 4 Days</p>
+          <p>Price: $800</p>
+          <button onclick="selectTrip('New York City Tour', 800)">
+            Book Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="review-section" style="display: none">
+      <div class="container">
+        <h2>Review Your Booking</h2>
+        <p id="review-trip"></p>
+        <p id="review-price"></p>
+        <p id="review-transport"></p>
+        <button onclick="confirmBooking()">Confirm Booking</button>
+        <button onclick="cancelBooking()">Cancel Booking</button>
+      </div>
+    </section>
+
+    <script src="../main-file/script.js"></script>
+  </body>
+</html>
